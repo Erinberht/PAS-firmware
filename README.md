@@ -1,6 +1,6 @@
 # Firmware ESP32 — PAS
 
-Repositorio: **https://github.com/leocarlos10/PAS-firmware**
+Repositorio: **https://github.com/Erinberht/PAS-firmware**
 
 Firmware Arduino para los dispositivos ESP32 del sistema de seguridad perimetral.
 
@@ -50,7 +50,7 @@ Estos topics deben coincidir con `topic_comando`, `topic_estado` y los sensores 
 
 ## Subir a GitHub
 
-Repositorio remoto: `https://github.com/leocarlos10/PAS-firmware`
+Repositorio remoto: `https://github.com/Erinberht/PAS-firmware`
 
 ```bash
 cd Firmware-ESP32
