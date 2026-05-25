@@ -1,5 +1,7 @@
 # Firmware ESP32 — PAS
 
+Repositorio: **https://github.com/leocarlos10/PAS-firmware**
+
 Firmware Arduino para los dispositivos ESP32 del sistema de seguridad perimetral.
 
 ## Estructura
@@ -48,28 +50,10 @@ Estos topics deben coincidir con `topic_comando`, `topic_estado` y los sensores 
 
 ## Subir a GitHub
 
-El repo remoto es: `https://github.com/leocarlos10/PAS`
+Repositorio remoto: `https://github.com/leocarlos10/PAS-firmware`
 
 ```bash
-cd PAS
-
-# Verificar que secrets.h NO aparece (está en .gitignore)
-git status
-
-git add Firmware-ESP32/
-git commit -m "Add ESP32 firmware for zone 2"
-git push origin feature/programacion-zona-horarios
-```
-
-Si prefieres un repo separado solo para firmware:
-
-```bash
-cd PAS/Firmware-ESP32
-git init
-git add README.md zona2/zona2.ino zona2/secrets.example.h
-git commit -m "Initial ESP32 zone 2 firmware"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/PAS-firmware.git
+cd Firmware-ESP32
 git push -u origin main
 ```
 
